@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width:100%;
+	height:70px;
+	padding:1%;
+	background-color:black;
+}
+.titulo{
+	width:20%;
+	height:30px;
+	font-size:20pt;
+	border:solid 1px black;
+}
+.formBuscar{
+	width:40%;
+	border:solid 1px black;
+}
+.busqueda,.buscar{
+	width:60%;
+	height:30px;
+	font-size:14pt;
+}
+.buscar{
+	width:65px;
+	font-size:12pt;
+	background-color:#7CADC8;
+}
+.linkRegistrarse,.linkLogin{
+	background-color:#CB7032;
+	width:20%;
+	padding:1%;
+	margin-left:180%;
+	margin-bottom:2%;
+}
+.linkLogin{
+	background-color:#457BB4;
+}
+.usuario{
+	width:38%;
+}
+.cerrarSesion,.nombreUsuario{
+	width:30%;
+	height:30px;
+	font-size:16pt;
+}
+.nombreUsuario{
+	background-color:#2D5AE9;
+	width:20%;
+	padding:1%;
+}
+.formLogin,.formRegistrar{
+	width:22%;
+	height:100px;
+	margin-top:10%;
+	padding:1%;
+	border:solid 1px #2954C9;
+	background-color:#2E77C3;
+}
+.labelUsuario{
+	margin-right:5.5%;
+}
+.formRegistrar{
+	background-color:#F3CFA2;
+}
+.boton{
+	width:100px;
+	height:20px;
+	margin-top:2%;
+	border:solid 1px white;
+}
+.botonLogin{
+	background-color:#3BB436;
+}
+.botonLogin:hover{
+	background-color:#8DE486;
+}
+.botonRegistrar{
+	background-color:#3A7AD0;
+}
+.botonRegistrar:hover{
+	background-color:#8FBCE0;
+}
+.espacioUsuario{
+	width:80%;
+	margin-top:5%;
+	border:solid 2px blue;
+	font-size:20pt;
+	padding:2%;
+}
+.noContactos,.noSolicitudes{
+	width:35%;
+	padding:2%;
+	background-color:#9CCCF4;
+}
+.noSolicitudes{
+	width:60%;
+}
+.divSolicitudes{
+	width:7%;
+	border-radius:50%;
+}
+.formConfirmar{
+	width:50%;
+	background-color:#E3925B;
+	padding:1%;
+	margin-top:2%;
+}
+.labelFormConfirmar{
+	width:50%;
+	margin-right:7%;
+}
+.botonFormConfirmar{
+	width:30%;
+}
+.actividad,.actividadContacto{
+	width:2%;
+	height:10px;
+	border-radius:50%;
+	border:solid 1px white;
+	background-position:center;
+	background-size:cover;
+}
+.actividadContacto{
+	width:50%;
+}
+.contenedorTablaResultados{
+	width:20%;
+	margin-top:3%;
+}
+.tabla{
+	width:100%;
+	border-collapse:collapse;
+	border:solid 1px black;
+}
+.tabla th{
+	background-color:#6ABF66;
+}
+.tabla td{
+	border:solid px #9A9A9A;
+}
+.linkContactos{
+	width:100px;
+	height:20px;
+	background-color:#427BB7;
+	margin:1%;
+}
+.contenedorChat,.contenedorMensajes{
+	width:25%;
+	height:90%;
+	border:solid 1px ;
+}
+.contenedorMensajes{
+	height:5%;
+	border:none;
+}
+.mensajesAjax{
+	width:90%;
+}
+.conversacion{
+	width:90%;
+	height:80%;
+	margin-top:5%;
+	border:solid 1px #7B7B7B;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	background-color:#4E4E4E;
+}
+.mensajeConversacion{
+	width:100%;
+}
+.divUsuario,.divMensaje{
+	width:20%;
+	background-color:#74C1D1;
+	padding:1%;
+	margin-top:2%;
+	margin-left:1%;
+}
+.divMensaje{
+	width:90%;
+	margin:5%;
+	background-color:#F9AA52;
+}
+.formChat{
+	width:90%;
+	margin-top:3%;
+}
+.mensaje{
+	width:100%;
+	height:20px;
+	margin-bottom:1%;
+}
+.enviar{
+	width:50%;
+}
